@@ -40,8 +40,12 @@ q: Fold w: Call 60 e: Raise to 100 a: ◀ d: ▶ r: All-in       v: Log c: ♠ 1
 
 ## Install
 
-Requires Claude Code 2.1.288 or later (Claude Mods shipped in 2.1.287; 2.1.288 fixed the mod button
-and the band above the prompt). Check with `claude --version`, update with `claude update`.
+Requires Claude Code 2.1.290 or later. Mods shipped in 2.1.287, and the releases after it fixed what
+this game relies on: installed mods loading in the first session after an upgrade, the right-hand
+side of the band drawing under its `[-]`, and redraws stalling on long text in symbols or CJK. Check
+with `claude --version`, update with `claude update`. The stable release channel (and the
+`claude-code` Homebrew cask) is still on 2.1.287; switch to the latest channel in `/config` until it
+catches up.
 
 hold-em is in the [claude-mods-games](https://github.com/IanYHChu/claude-mods-games) marketplace.
 Add it once, and install the other games from there too. Inside Claude Code:
